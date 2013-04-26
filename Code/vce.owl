@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:BiochemicalReaction rdf:about="id44">
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id43">
+ <bp:left rdf:resource="cd6ab" />
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="b2473">
+ <bp:displayName rdf:datatype = "xsd:string">MAB-5</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id42">
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id41">
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id48">
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id47">
+ <bp:right rdf:resource="cebe9" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id46">
+ <bp:left rdf:resource="cebe9" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id45">
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id40">
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="c69b6">
+ <bp:displayName rdf:datatype = "xsd:string">VAB-19</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+ <bp:xref rdf:resource="fbd" />
+</bp:Protein>
+
+<bp:Protein rdf:about="ad06f">
+ <bp:displayName rdf:datatype = "xsd:string">LIN-39</bp:displayName>
+ <bp:entityReference rdf:resource="id11" />
+</bp:Protein>
+
+<bp:PublicationXref rdf:about="fbd">
+ <bp:source rdf:datatype = "xsd:string">Nat Cell Biol</bp:source>
+ <bp:year rdf:datatype = "xsd:int">2011</bp:year>
+ <bp:author rdf:datatype = "xsd:string">Chi Q</bp:author>
+ <bp:author rdf:datatype = "xsd:string">Morrissey MA</bp:author>
+ <bp:author rdf:datatype = "xsd:string">Sherwood DR</bp:author>
+ <bp:author rdf:datatype = "xsd:string">Kramer JM</bp:author>
+ <bp:author rdf:datatype = "xsd:string">Motegi F</bp:author>
+ <bp:author rdf:datatype = "xsd:string">Hagedorn EJ</bp:author>
+ <bp:author rdf:datatype = "xsd:string">Ihara S</bp:author>
+ <bp:title rdf:datatype = "xsd:string">Basement membrane sliding and targeted adhesion remodels tissue boundaries during uterine-vulval attachment in Caenorhabditis elegans.</bp:title>
+ <bp:id rdf:datatype = "xsd:string">21572423</bp:id>
+ <bp:db rdf:datatype = "xsd:string">PubMed</bp:db>
+</bp:PublicationXref>
+
+<bp:BiochemicalReaction rdf:about="id38">
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id39">
+ <bp:left rdf:resource="cebe9" />
+</bp:BiochemicalReaction>
+
+<bp:BioSource rdf:about="id2">
+ <bp:standardName rdf:datatype = "xsd:string">Caenorhabditis elegans</bp:standardName>
+</bp:BioSource>
+
+<bp:Pathway rdf:about="id1">
+ <bp:organism rdf:resource="id2" />
+ <bp:comment rdf:datatype = "xsd:string">Vulval development</bp:comment>
+ <bp:comment rdf:datatype = "xsd:string">&quot;The C. elegans hermaphrodite vulva develops during postembryonic (larval) development from ventral epidermal precursors, and connects the developing uterus to the external environment. In the adult, the vulva is necessary for egg-laying (see Egg-laying) and for copulation with males (see Male mating behavior). Vulval development has attracted general interest for three main reasons. First, it serves as a paradigm for organogenesis. In particular, vulva development represents a well-understood case in which invariant development arises from multiple cell-cell interactions. It is also a striking example of tissue remodeling: the formation of a hole at a precise location in an organism. Second, it has been important for the genetic analyses of signaling and signal transduction by epidermal growth factor (EGF)-receptor LET-23 and RAS LET-60; (see RTKRas/MAP kinase signaling), LIN-12 (see LIN-12/Notch signaling in C. elegans), and WNT (see Wnt signaling), as well as the functions of the SynMuv and mediator proteins (see Transcriptional regulation). Third, it has become a paradigm for examining the interactions among regulatory pathways, notably the antagonism of EGF-receptor (LET-23) and Notch (LIN-12) pathways.&quot; (WikiPathways-description)</bp:comment>
+ <bp:comment rdf:datatype = "xsd:string">Physiological Process (WikiPathways-category)</bp:comment>
+ <bp:displayName rdf:datatype = "xsd:string">Vulval development</bp:displayName>
+ <bp:pathwayComponent rdf:resource="id47" />
+ <bp:pathwayComponent rdf:resource="id17" />
+ <bp:pathwayComponent rdf:resource="id49" />
+ <bp:pathwayComponent rdf:resource="id44" />
+ <bp:pathwayComponent rdf:resource="id29" />
+ <bp:pathwayComponent rdf:resource="id32" />
+ <bp:pathwayComponent rdf:resource="id18" />
+ <bp:pathwayComponent rdf:resource="id25" />
+ <bp:pathwayComponent rdf:resource="id16" />
+ <bp:pathwayComponent rdf:resource="id28" />
+ <bp:pathwayComponent rdf:resource="id34" />
+ <bp:pathwayComponent rdf:resource="id21" />
+ <bp:pathwayComponent rdf:resource="id26" />
+ <bp:pathwayComponent rdf:resource="id45" />
+ <bp:pathwayComponent rdf:resource="id24" />
+ <bp:pathwayComponent rdf:resource="id36" />
+ <bp:pathwayComponent rdf:resource="id43" />
+ <bp:pathwayComponent rdf:resource="id15" />
+ <bp:pathwayComponent rdf:resource="id30" />
+ <bp:pathwayComponent rdf:resource="id31" />
+ <bp:pathwayComponent rdf:resource="id38" />
+ <bp:pathwayComponent rdf:resource="id22" />
+ <bp:pathwayComponent rdf:resource="id42" />
+ <bp:pathwayComponent rdf:resource="id39" />
+ <bp:pathwayComponent rdf:resource="id48" />
+ <bp:pathwayComponent rdf:resource="id23" />
+ <bp:pathwayComponent rdf:resource="id41" />
+ <bp:pathwayComponent rdf:resource="id46" />
+ <bp:pathwayComponent rdf:resource="id19" />
+ <bp:pathwayComponent rdf:resource="id40" />
+ <bp:pathwayComponent rdf:resource="id37" />
+ <bp:pathwayComponent rdf:resource="id33" />
+ <bp:pathwayComponent rdf:resource="id35" />
+ <bp:pathwayComponent rdf:resource="id50" />
+ <bp:pathwayComponent rdf:resource="id27" />
+ <bp:pathwayComponent rdf:resource="id20" />
+</bp:Pathway>
+
+<bp:RelationshipXref rdf:about="id6">
+ <bp:id rdf:datatype = "xsd:string">T22D2.1</bp:id>
+ <bp:db rdf:datatype = "xsd:string">WormBase</bp:db>
+</bp:RelationshipXref>
+
+<bp:Protein rdf:about="be2f4">
+ <bp:displayName rdf:datatype = "xsd:string">LIN-39</bp:displayName>
+ <bp:entityReference rdf:resource="id11" />
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id5">
+ <bp:xref rdf:resource="id6" />
+ <bp:organism rdf:resource="id2" />
+</bp:ProteinReference>
+
+<bp:RelationshipXref rdf:about="id10">
+ <bp:id rdf:datatype = "xsd:string">ZK1058.2</bp:id>
+ <bp:db rdf:datatype = "xsd:string">WormBase</bp:db>
+</bp:RelationshipXref>
+
+<bp:RelationshipXref rdf:about="id4">
+ <bp:id rdf:datatype = "xsd:string">C08C3.3</bp:id>
+ <bp:db rdf:datatype = "xsd:string">WormBase</bp:db>
+</bp:RelationshipXref>
+
+<bp:ProteinReference rdf:about="id11">
+ <bp:xref rdf:resource="id12" />
+ <bp:organism rdf:resource="id2" />
+</bp:ProteinReference>
+
+<bp:ProteinReference rdf:about="id3">
+ <bp:xref rdf:resource="id4" />
+ <bp:organism rdf:resource="id2" />
+</bp:ProteinReference>
+
+<bp:RelationshipXref rdf:about="id12">
+ <bp:id rdf:datatype = "xsd:string">C07H6.7</bp:id>
+ <bp:db rdf:datatype = "xsd:string">WormBase</bp:db>
+</bp:RelationshipXref>
+
+<bp:ProteinReference rdf:about="id13">
+ <bp:xref rdf:resource="id14" />
+ <bp:organism rdf:resource="id2" />
+</bp:ProteinReference>
+
+<bp:ProteinReference rdf:about="id9">
+ <bp:xref rdf:resource="id10" />
+ <bp:organism rdf:resource="id2" />
+</bp:ProteinReference>
+
+<bp:Complex rdf:about="id51">
+ <bp:component rdf:resource="cb9bf" />
+ <bp:component rdf:resource="cf2a8" />
+</bp:Complex>
+
+<bp:RelationshipXref rdf:about="id8">
+ <bp:id rdf:datatype = "xsd:string">F54G8.3</bp:id>
+ <bp:db rdf:datatype = "xsd:string">WormBase</bp:db>
+</bp:RelationshipXref>
+
+<bp:RelationshipXref rdf:about="id14">
+ <bp:id rdf:datatype = "xsd:string">C26D10.5</bp:id>
+ <bp:db rdf:datatype = "xsd:string">WormBase</bp:db>
+</bp:RelationshipXref>
+
+<bp:BiochemicalReaction rdf:about="id50">
+</bp:BiochemicalReaction>
+
+<bp:ProteinReference rdf:about="id7">
+ <bp:xref rdf:resource="id8" />
+ <bp:organism rdf:resource="id2" />
+</bp:ProteinReference>
+
+<bp:BiochemicalReaction rdf:about="id15">
+ <bp:right rdf:resource="cebe9" />
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="cf2a8">
+ <bp:displayName rdf:datatype = "xsd:string">PAT-3</bp:displayName>
+ <bp:entityReference rdf:resource="id9" />
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id49">
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="e396c">
+ <bp:displayName rdf:datatype = "xsd:string">MAB-5</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:Protein>
+
+<bp:Protein rdf:about="c81d2">
+ <bp:displayName rdf:datatype = "xsd:string">EFF-1</bp:displayName>
+ <bp:entityReference rdf:resource="id13" />
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id26">
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id25">
+ <bp:left rdf:resource="b2473" />
+ <bp:right rdf:resource="cebe9" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id24">
+ <bp:left rdf:resource="c81d2" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id23">
+ <bp:left rdf:resource="c834b" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id22">
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id21">
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id20">
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="c834b">
+ <bp:displayName rdf:datatype = "xsd:string">LIN-39</bp:displayName>
+ <bp:entityReference rdf:resource="id11" />
+</bp:Protein>
+
+<bp:Protein rdf:about="ba006">
+ <bp:displayName rdf:datatype = "xsd:string">LIN-39</bp:displayName>
+ <bp:entityReference rdf:resource="id11" />
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id18">
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="e6ef4">
+ <bp:displayName rdf:datatype = "xsd:string">MAB-5</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id19">
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id16">
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id17">
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id35">
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="cb9bf">
+ <bp:displayName rdf:datatype = "xsd:string">INA-1</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+ <bp:xref rdf:resource="fbd" />
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id34">
+ <bp:left rdf:resource="cebe9" />
+ <bp:right rdf:resource="c81d2" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id37">
+ <bp:left rdf:resource="e396c" />
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="cd6ab">
+ <bp:displayName rdf:datatype = "xsd:string">LIN-39</bp:displayName>
+ <bp:entityReference rdf:resource="id11" />
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id36">
+ <bp:left rdf:resource="ad06f" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id31">
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id30">
+ <bp:left rdf:resource="e6ef4" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id33">
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id32">
+ <bp:left rdf:resource="fceee" />
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="fceee">
+ <bp:displayName rdf:datatype = "xsd:string">LIN-39</bp:displayName>
+ <bp:entityReference rdf:resource="id11" />
+</bp:Protein>
+
+<bp:Protein rdf:about="cebe9">
+ <bp:displayName rdf:datatype = "xsd:string">LIN-39</bp:displayName>
+ <bp:entityReference rdf:resource="id11" />
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id27">
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id28">
+ <bp:left rdf:resource="ba006" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id29">
+ <bp:left rdf:resource="be2f4" />
+</bp:BiochemicalReaction>
+</rdf:RDF>
