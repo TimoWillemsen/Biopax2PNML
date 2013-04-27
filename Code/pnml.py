@@ -17,12 +17,12 @@ class Writer:
 		nameText.text = nameValue
 
 	def writePlace(self, parent, place):
-		uid = self.uniqueId('p') 
+		if not place.id:
+			place.id = self.uniqueId('p') 
 		placeElement = ET.SubElement(parent, 'place', {
-			'id': uid
+			'id': place.id
 			})
 		self.writeName(placeElement, place.description)
-		place.id = uid
 
 	def writeTransition(self, parent, transition):
 		uid = self.uniqueId('t')

@@ -6,6 +6,11 @@ class PetriNet:
 		self.arcs = []
 
 	def newPlace(self, place):
+		for exisitingplace in self.places:
+			if exisitingplace.id == place.id:
+				print('Found duplicate place')
+				return
+
 		self.places.append(place)
 	def newTransition(self, transition):
 		self.transitions.append(transition)
@@ -13,7 +18,8 @@ class PetriNet:
 		self.arcs.append(arc)
 
 class Place:
-	def __init__(self, description):
+	def __init__(self, uid, description):
+		self.id = uid.rsplit('/',1)[1]
 		self.description = description
 
 class Arc:

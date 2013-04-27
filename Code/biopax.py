@@ -26,8 +26,8 @@ class Reader:
 		"""
 
 		for x in graph.query(query):
-			placeLeft = Place(x[1])
-			placeRight = Place(x[3])
+			placeLeft = Place(x[0], x[1])
+			placeRight = Place(x[2], x[3])
 			transition = Transition()
 			arcleft = Arc(placeLeft, transition)
 			arcRight = Arc(transition, placeRight)
